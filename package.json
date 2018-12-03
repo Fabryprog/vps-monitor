@@ -1,0 +1,23 @@
+{
+  "name": "vps-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabryprog/vps-monitor.git"
+  },
+  "author": "",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/Fabryprog/vps-monitor/issues"
+  },
+  "homepage": "https://github.com/Fabryprog/vps-monitor#readme",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "os-utils": "0.0.14"
+  }
+}

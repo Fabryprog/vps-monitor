@@ -1,0 +1,9 @@
+{
+    "id": "fabryprog-iota",
+    "mqtt": {
+      "url": "tcp://iot.eclipse.org:1883"
+    },
+    "commons": {
+      "interval": 30000
+    }
+}

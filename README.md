@@ -38,6 +38,7 @@ Monitor create a message to configured MQTT
 Every data are pushed into single topic:
 
 | DATA | TOPIC |
+|------|-------|
 | Platform | vps-monitor/<ID>/platform |
 | Uptime | vps-monitor/<ID>/uptime |
 | CPU Count | vps-monitor/<ID>/cpu/count |

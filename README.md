@@ -39,16 +39,16 @@ Every data are pushed into single topic:
 
 | DATA | TOPIC |
 |------|-------|
-| Platform | vps-monitor/<ID>/platform |
-| Uptime | vps-monitor/<ID>/uptime |
-| CPU Count | vps-monitor/<ID>/cpu/count |
-| CPU Usage | vps-monitor/<ID>/cpu/usage |
-| AVG Load 1 min | vps-monitor/<ID>/load/avg1 |
-| AVG Load 1 min | vps-monitor/<ID>/load/avg5 |
-| Memory Total | vps-monitor/<ID>/memory/total |
-| Memory Free | vps-monitor/<ID>/memory/free |
-| Last TS | vps-monitor/<ID>/last/ts |
-| Last ISO UTC Date | vps-monitor/<ID>/last/date |
+| Platform | vps-monitor/ID/platform |
+| Uptime | vps-monitor/ID/uptime |
+| CPU Count | vps-monitor/ID/cpu/count |
+| CPU Usage | vps-monitor/ID/cpu/usage |
+| AVG Load 1 min | vps-monitor/ID/load/avg1 |
+| AVG Load 1 min | vps-monitor/ID/load/avg5 |
+| Memory Total | vps-monitor/ID/memory/total |
+| Memory Free | vps-monitor/ID/memory/free |
+| Last TS | vps-monitor/ID/last/ts |
+| Last ISO UTC Date | vps-monitor/ID/last/date |
 
 # Mobile App
 

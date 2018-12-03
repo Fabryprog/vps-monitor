@@ -24,9 +24,6 @@ Config file must contains:
 
 * Docker
 
-  * Build
-  > docker build -t fabryprog/vps-monitor .
-
   * Run
   > docker run --name vps-monitor -v /etc/hostname:/etc/hostname:ro -v $PWD/config.json:/opt/monitor/config.json -d fabryprog/vps-monitor
 

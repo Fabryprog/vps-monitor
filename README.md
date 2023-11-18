@@ -5,27 +5,31 @@ VPS Monitor using MQTT
 # Config
 
 Config file must contains:
- * id
-   * your id
- * mqtt.url
-   * mqtt URL
- * commons.interval
-   * Interval in millis
+```
+{
+    "id": "<your id>",
+    "mqtt": {
+      "url": "tcp://<server name>:<server port>"
+    },
+    "commons": {
+      "interval": <in millis>
+    }
+}
+```
 
 # Run
 
 * Nodejs
 
   * Build
-  > npm install
+  > `npm install`
 
   * Run
-  > nodejs index.js
+  > `nodejs index.js`
 
 * Docker
 
-  * Run
-  > docker run --name vps-monitor -v /etc/hostname:/etc/hostname:ro -v $PWD/config.json:/opt/monitor/config.json -d fabryprog/vps-monitor
+  * `docker run --name vps-monitor -v /etc/hostname:/etc/hostname:ro -v $PWD/config.json:/opt/monitor/config.json -d fabryprog/vps-monitor`
 
 # How to work
 
